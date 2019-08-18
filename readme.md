@@ -1,11 +1,6 @@
 # gatsby-source-goodreads-user-reviews-list
 Gatsby source plugin to fetch all books under a user review from Goodreads API + [Gatsby Image](https://www.gatsbyjs.org/packages/gatsby-image/) support.
 
-[TODO DEMO]
-
-# Install
- [TODO]
-
 -> Goodreads API key https://www.goodreads.com/api/keys
 
 # Usage
@@ -50,4 +45,3 @@ Query data like this:
     }
 }
  ```
-https://www.goodreads.com/api/index#reviews.list

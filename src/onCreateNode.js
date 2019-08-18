@@ -6,7 +6,7 @@ async function onCreateNode({ node, cache, actions, store, createNodeId }) {
   if (node.internal.type === 'GoodreadsBook') {
     try {
       fileNode = await createRemoteFileNode({
-        url: node.book.image_url[0],
+        url: node.book[0].image_url[0],
         parentNodeId: node.id,
         store,
         cache,
